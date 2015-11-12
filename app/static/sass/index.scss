@@ -1,0 +1,30 @@
+@import 'compass/reset';
+
+input{
+  outline: 0;
+}
+
+html,body{
+  font-family: 'Heiti SC', 'Microsoft YaHei';
+  font-size:0.1066rem;
+}
+
+.form-gruop{
+  padding-left: 0.1422rem;
+  padding-right: 0.1422rem;
+}
+
+.btn{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #3FB6FD;
+  border-radius:8px;
+  font-size:0.1777rem;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  height:0.4266rem;
+  line-height: 0.4266rem;
+  color:#fff;
+}

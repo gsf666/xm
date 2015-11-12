@@ -1,0 +1,17 @@
+$debug-browser-support: true;
+$browser-minimum-versions: ("ie": "6");
+
+@import "compass/utilities/general/clearfix";
+@import "compass/utilities/general/float";
+@import "compass/css3/opacity";
+
+.fr{
+  @include float-right;
+
+}
+.fl{
+  @include float-left;
+}
+.clx{
+  @include pie-clearfix;
+}
